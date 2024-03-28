@@ -94,6 +94,7 @@ class QuestionIndexViewTests(TestCase):
         )
 
 class QuestionDetailViewTests(TestCase):
+    
     def test_future_question(self):
         """
         The detail view of a question with a pub_date in the future
